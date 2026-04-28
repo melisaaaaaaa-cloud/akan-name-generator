@@ -29,9 +29,11 @@ let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 let akanName;
-If ((gender === "male")){{
-    akanName =maleNames[d];
-}}
+If ((gender === "male")) {
+    akanName = maleNames[d];
+} else {
+    akanName = femaleNames[d];
+}
 
 
 
