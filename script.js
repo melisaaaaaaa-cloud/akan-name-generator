@@ -12,7 +12,14 @@ alert("please enter a valid date and select gender.");
 return;
 }
 
-// 
+// Extract CC and YY
+let CC = Math.floor(year/100);
+let YY = year % 100;
+
+//  Formula
+let d = (( (CC / 4) - 2 * CC - 1) + )
+
+  let d = (( (CC / 4) - 2 * CC - 1 ) + ((5 * YY) / 4) + ((26 * (month + 1)) / 10) + day) % 7;
 
 
 
