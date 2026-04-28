@@ -10,7 +10,7 @@ body {
     margin: 50px auto;
     width: 300px;
     border-radius: 10px;
-    border-color: black;
+    border-color: aqua;
     box-shadow: 0 0 10px rgba(red, green, blue, alpha);
 }
 
@@ -21,6 +21,7 @@ input, select, button{
     height: auto;
 }
 
-button:hover {
-    background-color: aquamarine;
+#result {
+    margin-top: 15px;
+    color:aqua;
 }
