@@ -8,6 +8,6 @@ document.getElementById("akanform").addEventListener("submit", function(e){
 
 //  validation
 If (day < 1 || day > 31 || month < 1 || month > 12 || gender === "") {
-
+alert("please enter a valid date and select gender")
 }
 }
