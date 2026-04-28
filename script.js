@@ -1,0 +1,1 @@
+document.getElementById("akanform").addEventListener("submit", fucntion(e))
