@@ -28,13 +28,13 @@ let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "S
 let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-let akanName;
-If ((gender === "male")) {
-    akanName = maleNames[d];
-} else {
-    akanName = femaleNames[d];
-}
+ let akanName;
+ if (gender === "male") {
+     akanName = maleNames[d];
+ } else {
+     akanName = femaleNames[d];
+ }
 
-document.getElementById("result").InnerText
-    'You were born on a ${days[d]}. Your Akan name is ${akanName}.';
+ document.getElementById("result").innerText =
+     `You were born on a ${days[d]}. Your Akan name is ${akanName}.`;
 });
