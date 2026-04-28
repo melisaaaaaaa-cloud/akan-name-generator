@@ -13,3 +13,10 @@ body {
     border-color: black;
     box-shadow: 0 0 10px rgba(red, green, blue, alpha);
 }
+
+input, select, button{
+    width: 50px;
+    padding: 10px;
+    margin: 8px;
+    height: auto;
+}
