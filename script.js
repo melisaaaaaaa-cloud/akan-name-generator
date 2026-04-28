@@ -35,9 +35,6 @@ If ((gender === "male")) {
     akanName = femaleNames[d];
 }
 
-
-
-
-
-
-}
+document.getElementById("result").InnerText
+    'You were born on a ${days[d]}. Your Akan name is ${akanName}.';
+});
