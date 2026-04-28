@@ -2,7 +2,7 @@
 # Akan Name Generator
 
 ## Description
-This is a web application automatically calculates  
+This is a web application automatically gives a user their name based on the day they were born and gender.
 
 ## Author
 
