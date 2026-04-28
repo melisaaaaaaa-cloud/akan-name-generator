@@ -19,12 +19,19 @@ let YY = year % 100;
 //  Formula
 let d = (( (CC / 4) - 2 * CC - 1) + ((5 * YY) / 4) + ((26 * (month + 1)) / 10) + day) % 7;
 
+d = Math.floor (d)
+If (d < 0) d += 7;
 
+// Days + Names
+let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
+let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-
-
-
+let akanName;
+If ((gender === "male")){{
+    akanName =maleNames[d];
+}}
 
 
 
