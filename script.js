@@ -26,36 +26,9 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
             akanName = femaleNames[dayOfWeek]; 
         }
-        
 
-        )
+        document.getElementById("result").innerText =
+        'You were born on a ${days[dayOfWeek]}. Your Akan name is ${akanName}.';
 
-    }
- )
-
-
-
-
-
-    let date = new Date(year, month - 1, day);
-    let dayOfWeek = date.getDay();
-
-    let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-    let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-
-    let akanName;
-
-    if (gender === "male") {
-      akanName = maleNames[dayOfWeek];
-    } else {
-      akanName = femaleNames[dayOfWeek];
-    }
-
-    document.getElementById("result").innerText =
-      `You were born on a ${days[dayOfWeek]}. Your Akan name is ${akanName}.`;
-
-    document.getElementById("akanForm").reset();
-  });
-
-});
+        document.getElementById('akanForm').reset() 
+    });
