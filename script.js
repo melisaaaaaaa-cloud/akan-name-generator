@@ -35,4 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("akanForm").reset() 
     });
 
+ });
+
+
 
