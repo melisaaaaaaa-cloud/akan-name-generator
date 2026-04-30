@@ -7,7 +7,7 @@ document.getElementById("akanform").addEventListener("submit", function(e){
  let gender = parseInt(document.getElementById("gender").value)
 
 // validation
-If (day < 1 || day > 31 || month < 1 || month > 12 || gender === "") {
+if (day < 1 || day > 31 || month < 1 || month > 12 || gender === "") {
 alert("please enter a valid date and select gender.");
 return;
 }
@@ -20,7 +20,7 @@ let YY = year % 100;
 let d = (( (CC / 4) - 2 * CC - 1) + ((5 * YY) / 4) + ((26 * (month + 1)) / 10) + day) % 7;
 
 d = Math.floor (d)
-If (d < 0) d += 7;
+if (d < 0) d += 7;
 
 // Days + Names
 let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -37,4 +37,4 @@ let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
  document.getElementById("result").innerText =
      `You were born on a ${days[d]}. Your Akan name is ${akanName}.`;
-});
+}); ?1
