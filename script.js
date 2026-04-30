@@ -4,7 +4,7 @@ let month = parseInt(document.getElementById("month").value);
 let year = parseInt(document.getElementById("year").value);
 let gender = parseInt(document.getElementById("gender").value);
 
-// validation
+// Validation
 if (day < 1|| day > 31 || month < 1 || month > 12 || gender === "" ) { 
 alert("please enter a valid date and select gender.");
 return;
@@ -20,7 +20,10 @@ if (gender === "male") {
 } else{
     akanName = femaleNames[dayOfWeek];
 }
+// Display result
+document.getElementById("result").innerText =
+'You were born on a ${days[dayOfWeek]}. Your Akan name is ${akanName}.';
 
-
-
-}
+// Reset form
+document.getElementById("akanForm").reset();
+});
