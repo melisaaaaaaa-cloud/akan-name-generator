@@ -1,16 +1,18 @@
 
 document.addEventListener("DOMContentLoaded", function () {
-    Document.getElementById("akanForm").addEventListener("submit", function(e) {
+    document.getElementById("akanForm").addEventListener("submit", function(e) {
         e.preventDefault();
         let day = parseInt(document.getElementById("day").value);
         let month = parseInt(document.getElementById("month").value);
         let year = parseInt(document.getElementById("year").value);
-        let gender = parseInt(document.getElementById("gender").value);
+        let gender = document.getElementById("gender").value;
 
+        // validation
         if(day < 1 || day > 31 || month < 1 || month > 12 || gender === "") {
          alert("please enter a valid date and select gender.");
          return;
         }
+
         let date = new Date(year, month - 1, day);
         let dayOfWeek = date.getDay();
 
@@ -30,5 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("result").innerText =
         'You were born on a ${days[dayOfWeek]}. Your Akan name is ${akanName}.';
 
-        document.getElementById('akanForm').reset() 
+        document.getElementById("akanForm").reset() 
     });
+
+
