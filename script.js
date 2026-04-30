@@ -1,3 +1,9 @@
+console.log("JS is working");
+
+
+
+
+
 document.getElementById("akanform").addEventListener("submit", function(e) {e.preventDefault();
 let day = parseInt(document.getElementById("day").value);
 let month = parseInt(document.getElementById("month").value);
@@ -26,4 +32,6 @@ document.getElementById("result").innerText =
 
 // Reset form
 document.getElementById("akanForm").reset();
+
+
 });
