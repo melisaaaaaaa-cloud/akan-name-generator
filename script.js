@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         document.getElementById("result").innerText =
-        'You were born on a ${days[dayOfWeek]}. Your Akan name is ${akanName}.';
+        `You were born on a ${days[dayOfWeek]}. Your Akan name is ${akanName}.`;
 
         document.getElementById("akanForm").reset() 
     });
