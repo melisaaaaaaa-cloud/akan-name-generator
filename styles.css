@@ -5,3 +5,10 @@ layout{
     box-sizing: border-box;
     box-shadow: inset;
 }
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aquamarine;
+    line-height: 1.6;
+    margin-left: 0%;
+    padding: 50%;
+}
