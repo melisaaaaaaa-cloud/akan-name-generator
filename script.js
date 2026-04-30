@@ -37,4 +37,5 @@ let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
  document.getElementById("result").innerText =
      `You were born on a ${days[d]}. Your Akan name is ${akanName}.`;
-}); ?1
+});
+
