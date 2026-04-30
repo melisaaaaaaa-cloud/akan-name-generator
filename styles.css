@@ -34,3 +34,14 @@ input,select{
     border-radius: 5px;
     font-size: 16px;
 }
+button{
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF;
+    color: white;
+    border: none;
+    Border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
