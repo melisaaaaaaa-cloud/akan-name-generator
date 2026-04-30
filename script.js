@@ -19,6 +19,13 @@ document.addEventListener("DOMContentLoaded", function () {
         let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
         let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
+        let akanName;
+
+        if (gender === "male") {
+            akanName = maleNames[dayOfWeek];
+        } else {
+            akanName = femaleNames[dayOfWeek]; 
+        }
         
 
         )
