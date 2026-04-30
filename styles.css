@@ -45,3 +45,9 @@ button{
     cursor: pointer;
     transition: 0.3s;
 }
+button:hover{
+    background-color: rgba(0, 39, 231, 0.904);
+}
+.form-group{
+    margin-bottom: 15px;
+}
