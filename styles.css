@@ -63,3 +63,19 @@ button:hover{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+table{
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+th {
+    background-color: #007BFF;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
