@@ -16,20 +16,26 @@
         </p>
         <nav>
         <a href="#home page">Home page</a>
-        <a href="#about webapplication">About webapplication</a>
+        <a href="#about web application">About web application</a>
         <a href="Akan Names">Akan Names</a>
         <a href="contacts page">Contacts page</a>
         </nav>
      </header>
      <!-- home page-->
-      <section id="home page"></section>
+      <section id="home page">
     <h2 class="main-title">Get To Know Your Akan Name</h2>
-    <div class="card">
-    <h1>Akan Names</h1>
     <p>
        This is a simple web application that calculates the day of the week a specific user was born and assigns them an Akan Name based on their gender and the specific day of the week they were born. 
     </p>
     </section>
+
+    <!-- About web application -->
+     <section>
+        <h2>About the web application</h2>
+        <p>The Akan Names are derived from the culture of Akan people of Ghana. The naming of children is usually based on the day of the week they are born in regards to the Akan Names. Many cultures of different people in Africa
+            usually have a factor that helps them name thier children and this may include: Days of the week they are born, Months of the year, birth places and weather seasons.
+        </p>
+     </section>
     <table>
         <tr>
             <th>Day</th>
@@ -79,7 +85,13 @@
        
         <form id="akanForm">
             <label>Day:</label>
-            <input type="number" id="day" required>
+            <input type="number" 
+            id="day"
+            name="day"
+            min="1"
+            max="31"
+            placeholder="1-31"
+             required /><br><br/>
 
             <label>Month:</label>
             <input type="number" id="month" required>
