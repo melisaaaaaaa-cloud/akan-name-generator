@@ -12,7 +12,14 @@ return;
 // arrays
 let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-let maleNames = ["Kwasi",  ]
+let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+
+if (gender === "male") {
+    akanName = maleNames[dayOfWeek];
+} else{
+    akanName = femaleNames[dayOfWeek];
+}
 
 
 
