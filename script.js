@@ -3,7 +3,27 @@ document.addEventListener("DOMContentLoaded", function() {
         e.preventDefault();
 
         let day = parseInt(document.getElementById("day").value);
+        let month = parseInt(document.getElementById("month").value);
+        let year = parseInt(document.getElementById("year").value);
+        let gender = document.getElementById("gender").value;
+
+        // validation
+        if(
+            isNaN(day) ||
+            isNaN(month) ||
+            isNaN(year) ||
+            day < 1 ||
+            day > 31 ||
         
+
+
+
+
+
+
+
+
+        )
 
 
 
@@ -37,15 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 }
-
-
-
-
 )
-
-
-
-
 
  document.addEventListener("DOMContentLoaded", function () {
    document.getElementById("akanForm").addEventListener("submit", function (e) {
