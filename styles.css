@@ -58,3 +58,40 @@ body{
     border-radius: 8px;
     border: 1px solid #ccc;
 }
+.form-card button{
+    width: 100px;
+    padding: 10px;
+    background: linear-gradient(to right, red, gold, green);
+    border: none;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.form-card button:hover{
+    opacity: 0.85;
+}
+table{
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+th{
+    background: #22c55e;
+    color: white;
+    padding: 10px;
+}
+td{
+    padding: 8px;
+    background: #e5e7eb;
+    color: black;
+    text-align: center;
+}
+.result{
+    margin-top: 15px;
+    font-size: 18px;
+    color: gold;
+    font-weight: bold;
+    text-align: center;
+}
