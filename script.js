@@ -14,16 +14,18 @@ document.addEventListener("DOMContentLoaded", function() {
             isNaN(year) ||
             day < 1 ||
             day > 31 ||
-        
+            month < 1 ||
+            month > 12 ||
+            gender === ""
+        ){
+            alert("Please enter a valid date and select gender.");
+            return;
+        }
+        let date = new Date(year, month - 1, day);
 
+        // check if date is valid
+        if (date.getDate(!== day))
 
-
-
-
-
-
-
-        )
 
 
 
