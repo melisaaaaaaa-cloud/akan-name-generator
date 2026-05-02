@@ -71,10 +71,6 @@ document.addEventListener("DOMContentLoaded", function() {
         `You were born on a ${days[dayOfWeek]}. Your Akan Name is ${akanName}.`
 
         document.getElementById("akanForm").reset();
-
-
-   
     });
-
 });
 
