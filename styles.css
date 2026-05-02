@@ -1,122 +1,15 @@
-layout{
+*{
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
+    font-family: 'Segoe UI',sans-serif;
 }
 body{
-    font-family: Arial,sans-serif;
-    background-color: #f4f6f9;
-    margin:0;
-    padding: 0;
-    min-height: 100vh;
+    background: linear-gradient(to right,#0f172a, #1e293b);
+    color: white;
+}
+.header{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364)
-}
-.container{
-    max-width: 600px;
-    margin: 40px auto;
-    background: #ffffff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
-}
-h1,h2{
-    text-align: center;
-    color: #4CAF;
-}
-p{
-    text-align: center;
-    color: #666;
-}
-input,select{
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-}
-button{
-    width: 100%;
-    padding: 12px;
-    background-color: #4CAF;
-    color: white;
-    border: none;
-    Border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-button:hover{
-    background-color: rgba(0, 39, 231, 0.904);
-}
-.form-group{
-    margin-bottom: 15px;
-}
-.main-title{
-    text-align: center;
-    font: size 32px;
-    font-weight: bold;
-    color: #4CAF;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin: 20px 0;
-    background: linear-gradient(90deg, #00c6ff, #0072ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position: static;
-}
-table{
-    width: 100%;
-    margin-top: 20px;
-    border-collapse: collapse;
-}
-th, td {
-    border: 1px solid #ddd;
-    padding: 10px;
-}
-th {
-    background-color: #007BFF;
-    color: white;
-}
-tr:nth-child(even){
-    background-color: #f2f2f2;
-}
-.card{
-    max-width: 480px;
-    width: 100%;
-    padding: 36px 40px;
-    border-radius: 20px;
-    background: rgba(255, 255, 255, 0.06);
-    backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4)
-}
-form-container{
-    max-width: 360px;
-    margin: 0 auto;
-}
-h1,.title,.header-text{
-text-align: center;
-display: block;
-width: 100%;
-}
-select{
-    width: 100%;
-    max-width: 300px;
-    padding: 6px 10px;
-    font-size: 13px;
-    height: 36px;
-    display: block;
-    margin: 0 auto;
-}
-footer{
-    background: #203a43;
-    color: #0072ff;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
 }
